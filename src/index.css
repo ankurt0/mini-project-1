@@ -7,6 +7,88 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.cart-item {
+  display: flex;
+  margin: 20px 10px;
+  
+}
+.cart-item .right-block {
+  padding: 0 20px;
+}
+.cart-item-actions {
+  margin-top: 10px;
+}
+.action-icons {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+.action-icons:hover {
+  cursor: pointer;
+}
+
+.cart{
+  display: flex;
+  flex-direction: column;
+  margin: 5px 30px;
+}
+
+
+/*************** navbar********************/
+.nav{
+  background: rgb(209, 200, 200);
+  width: 100%;
+}
+
+.cart-icon{
+  height: 40px;
+  width: 40px;
+  padding-right: 30px;
+  float: right;
+}
+
+.nav-item{
+  display: inline;
+  margin-top: 0px;
+  list-style: none;
+  font-size: large;
+  font-weight: 500;
+  word-spacing: 2px;
+}
+
+.nav-item li{
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+.cart-count{
+  display: inline-block;
+  height: 25px;
+  width: 16px;
+  border-radius: 35%;
+  background: rgb(27, 27, 8);
+  color: aliceblue;
+  position: relative;
+  bottom: 130%;
+  left: 90%;
+  padding-left: 4px;
+}
+/************************************************/
+
+
+/****************footer*************/
+.footer{
+  display: inline-block;
+  position: relative;
+  bottom: 0%;
+  left: 94%;
+  font-size: large;
+  font-weight: 500;
+}
+
+/**********************************/
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
