@@ -8,9 +8,10 @@ body {
 }
 
 .cart-item {
-  display: flex;
+  display: inline-flex;
   margin: 20px 10px;
-  
+  background: lightgrey;
+  width: 30%;
 }
 .cart-item .right-block {
   padding: 0 20px;
